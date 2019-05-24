@@ -1,0 +1,35 @@
+{
+    "devtools_port": 9090,
+    "runtime": {
+        "arguments": "--enable-aggressive-domstorage-flushing",
+        "version": "10.66.39.43"
+    },
+    "startup_app": {
+        "name": "app",
+        "uuid": "33aa9062-9eb0-4875-b819-c90f38ef0app2",
+        "url": "http://localhost:8022/index.html",
+        "autoShow": true,
+        "defaultWidth": 300,
+        "defaultHeight": 330,
+        "maxWidth": 300,
+        "minWidth": 300,
+        "minHeight": 0,
+        "frame": false,
+        "contextMenu": true
+    },
+    "services": [
+        {
+            "name": "layouts",
+            "config": {
+                "features": {
+                    "tab": false
+                }
+            }
+        }
+    ],
+    "shortcut": {
+        "company": "app",
+        "description": "App an OpenFin application.",
+        "name": "App"
+    }
+}
